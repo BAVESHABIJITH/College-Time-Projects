@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <nav>
+        <img src="/icon.png" alt="">
+        <ul>
+                <li><a href="index.html">Simple Calculator</a></li>
+                <li><a href="age.html">Age Calculator</a></li>
+                <li><a href="bmi.html">BMI Calculator</a></li>
+                <li><a href="#">Currency Converter</a></li>
+                <li><a href="gst.html">GST Calculator</a></li>
+            </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="row">
+          <div class="col">
+            <select name="currency" class="currency"> 
+                <option>select</option>
+            </select>
+            <input type="text" name="" id="input_currency">
+          </div>
+          <div class="col">
+            <select name="currency" class="currency">
+                <option>select</option>
+            </select>
+            <input type="text" name="" id="output_currency" disabled>
+          </div>
+        </div>
+        <button onClick="convert()">Convert</button>
+    </div>
+    <script src="currency.js"></script>
+</body>
+</html>
