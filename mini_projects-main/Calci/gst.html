@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST Calculator</title>
+    <link rel="stylesheet" href="gst.css">
+</head>
+<body>
+    <nav>
+        <img src="/icon.png" alt="">
+        <ul>
+                <li><a href="index.html">Simple Calculator</a></li>
+                <li><a href="age.html">Age Calculator</a></li>
+                <li><a href="bmi.html">BMI Calculator</a></li>
+                <li><a href="currency.html">Currency Converter</a></li>
+                <li><a href="gst.html">GST Calculator</a></li>
+            </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>GST Calculator</h1>
+       <div class="input-box">
+        <h2>Amount</h2>
+        <form action="">
+            <input type="text" class="input" id="ip">
+        <h2>GST%</h2>
+        <select id="rate">
+            <option value="select">Select</option>
+            <option value="5">5%</option>
+            <option value="12">12%</option>
+            <option value="18">18%</option>
+            <option value="28">28%</option>
+        </select>
+        </form>
+        <button id="btn">Calculate</button>
+       </div>
+       <p id="output"></p>
+    </div>
+    <script src="gst.js"></script>
+</body>
+</html>

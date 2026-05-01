@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <nav>
+        <img src="/icon.png" alt="">
+        <ul>
+                <li><a href="index.html">Simple Calculator</a></li>
+                <li><a href="age.html">Age Calculator</a></li>
+                <li><a href="#">BMI Calculator</a></li>
+                <li><a href="currency.html">Currency Converter</a></li>
+                <li><a href="gst.html">GST Calculator</a></li>
+            </ul>
+    </nav>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="input-box">
+            <p class="input">Height in CM:
+                <input type="text" id="height"><br><span id="height_error"></span>
+            </p>
+            <p class="input">Weight in KG:
+                <input type="text" id="weight"><br><span id="weight_error"></span>
+            </p>
+            <button id="btn" onclick="">Calculate</button>
+        </div>
+        <p id="output"></p>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>
